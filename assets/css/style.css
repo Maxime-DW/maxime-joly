@@ -44,9 +44,12 @@ img {
     width: 100%;
 }
 
-.text-brand {
+.text-brand, .text-brand-title {
     color: var(--color-brand);
-    letter-spacing: 0.2em;
+}
+
+.text-brand-title {
+    letter-spacing: 0.3em;
 }
 
 .bg-base {
@@ -80,6 +83,10 @@ img {
     justify-content: center;
     font-size: 2em;
     background-color: var(--color-brand);
+}
+
+.la-dot-circle {
+    color: var(--color-brand);
 }
 
 
