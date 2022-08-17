@@ -312,9 +312,6 @@
 
                         </div>
                     </div>
-
-
-
                 </div>
         </section>
         <!-- // ABOUT -->
@@ -328,7 +325,8 @@
                         <h6 class="text-brand">CONTACT</h6>
                         <h1 class="pb-3">Un projet en tête ?</h1>
                         <h5 class="pb-3">PRENONS CONTACT</h5>
-                        <p class="lead">Quelle que soit la nature de votre projet (Web, Mobile, Sur-mesure) ou son stade de
+                        <p class="lead">Quelle que soit la nature de votre projet (Web, Mobile, Sur-mesure) ou son stade
+                            de
                             réalisation, je peux apporter mon expertise (expression de besoin, étude, conception,
                             prototype, etc.) pour vous aider à concevoir des prestations à forte valeur ajoutée pour vos
                             utilisateurs finaux.
@@ -337,27 +335,29 @@
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="action.php" class="row g-lg-3 gy-3" method="post">
+                        <form class="row g-lg-3 gy-3" method="post" action="./mail.php">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Entrez votre nom">
+                                <input type="text" class="form-control" name="nom" placeholder="Entrez votre nom"
+                                    required>
                             </div>
-                            
+
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Entrez votre email">
+                                <input type="email" class="form-control" name="email" placeholder="Entrez votre email"
+                                    required>
                             </div>
 
                             <div class="form-group col-12">
-                                <input type="text" class="form-control" placeholder="Objet">
+                                <input type="text" class="form-control" name="objet" placeholder="Objet" required>
                             </div>
 
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Précisez votre projet"></textarea>
+                                <textarea name="" rows="4" class="form-control" name="message"
+                                    placeholder="Précisez votre projet" required></textarea>
                             </div>
 
                             <div class="form-group col-12 d-grid">
                                 <button type="submit" class="btn btn-brand">Contactez moi</button>
                             </div>
-
                         </form>
                     </div>
                 </div>
@@ -388,7 +388,6 @@
 
     </div>
     <!-- //CONTENT WRAPPER -->
-
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
