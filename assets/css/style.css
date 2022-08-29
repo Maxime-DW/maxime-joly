@@ -136,7 +136,7 @@ img {
     }
 
     #content-wrapper {
-        padding-left: var(--sidebar-width)
+        padding-left: var(--sidebar-width);
     }
 
     .link {
